@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+    .cart-button{
+        @apply flex justify-center items-center cursor-pointer rounded-full  h-8 w-8 z-50 p-2 absolute right-2 top-2 transition-all ease-linear duration-300 hover:scale-110 
+    }
+@tailwind utilities;
+
+body{
+    padding: 1rem 5%;
+}
